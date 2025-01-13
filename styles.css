@@ -1,0 +1,94 @@
+
+
+h1 {
+text-align: center;
+font-size: 40px;
+text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+   
+}
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-link img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 9px 16px rgba(0, 0, 0, 0.3);
+}
+
+.side-by-side img {
+    width: 100px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* New CSS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 40px; /* margin-left shifts the whole thing, image and text, to the right */
+    box-sizing: border-box;
+}
+
+
+.image {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.text {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.text h2, .text p {
+    margin-top: 0;
+    color: black;
+}
+
+
+.image, .text {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.image:hover {
+    transform: scale(1.05); /*slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
