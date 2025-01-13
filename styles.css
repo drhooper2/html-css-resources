@@ -92,3 +92,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Default link styles */
+.hover-link {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    transition: color 0.3s ease, text-shadow 0.3s;
+}
+
+/* Hover effect */
+.hover-link:hover {
+    color: red;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow effet */
+}
