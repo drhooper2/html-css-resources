@@ -63,13 +63,7 @@ body {
 }
 
 
-.image {
-    width: 50px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
+
 
 .text {
     width: 50%;
@@ -88,7 +82,12 @@ body {
 }
 
 .image:hover {
-    transform: scale(1.05); /*slight zoom effect on hover */
+    transform: scale(1.05); /*slight zoom effect on .image {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -104,4 +103,11 @@ body {
 .hover-link:hover {
     color: red;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow effet */
+}
+
+
+.rounded-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
 }
